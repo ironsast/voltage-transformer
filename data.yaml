@@ -2,12 +2,12 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 4
-names: ['center', 'needle', 'scaleend', 'scalestart']
+nc: 1
+names: ['voltage-transformer']
 
 roboflow:
   workspace: ironsast-oyacw
-  project: density-relay
-  version: 2
+  project: voltage-transformer
+  version: 1
   license: CC BY 4.0
-  url: https://universe.roboflow.com/ironsast-oyacw/density-relay/dataset/2
+  url: https://universe.roboflow.com/ironsast-oyacw/voltage-transformer/dataset/1
